@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int z=1;
+    for(z=1;z<=100;z++)
+    if(z%2!=0)
+    printf("%4d", z);
+
+    return 0;
+}
+
+
+
