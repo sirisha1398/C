@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+    
+    int num1,num2;
+    printf("enter the value of num1 ");
+    scanf("%d",&num1);
+    
+    printf("enter the value of num2 ");
+    scanf("%d",&num2);
+    
+    //num1 or num2 is a greatest number//
+    if(num1>=num2)
+    printf("num1 is greatest number");
+    else
+    printf("num2 is greatest number");
+    
+    return 0;
+}
