@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    
+    //*input two angles of the triangle*//
+    printf("enter the two angles of the triangle: ");
+    scanf("%d %d",&a,&b);
+    
+    //*compute the third angle*//
+    c=180-(a+b);
+    printf("third angle of triangle = %d",c);
+
+    return 0;
+}
