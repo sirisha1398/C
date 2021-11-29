@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    //speed=distance/time
+    //time=distance/speed
+    
+    float d=500;
+    float s=100;
+    float t=d/s;
+    
+    //printing time
+    printf("time=%.3f",t);//using. 3f to
+     "print upto three decimal values";
+    
+    return 0;
+    
+}
