@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+ //si=(p*t*r)/100
+    int p,t,r;
+    //input of principal value
+    printf("enter the principal value");
+    scanf("%d",&p);
+    //input of time
+    printf("enter time(in year)");
+    scanf("%d",&t);
+    //input of rate
+    printf("enter the rate of interest");
+    scanf("%d",&r);
+    
+    //calculating simple interest
+    float si=(p*t*r)/100;
+    printf("simple interest =%.3f",si);
+    
+
+    return 0;
+}
