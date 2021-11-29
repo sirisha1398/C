@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float r,d,c,a;
+    
+    printf("enter the value of r ");
+    scanf("%f", &r);
+    
+    d=2*r;
+    c=2*3.14*r;
+    a=3.14*(r*r);
+    
+    printf("d,c,a of circle=%.3f %.3f %.3f", d, c, a);
+    
+    return 0;
+}
+
